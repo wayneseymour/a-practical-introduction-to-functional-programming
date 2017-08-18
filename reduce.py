@@ -1,3 +1,4 @@
-sum = reduce(lambda a, x: a + x, [0, 1, 2, 3, 4])
+def add(a, b):
+    return a + b
 
-print sum
+print reduce(add, [0, 1, 2, 3, 4])
